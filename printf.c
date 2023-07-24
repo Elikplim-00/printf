@@ -1,6 +1,7 @@
 #include <stdarg.h>
 #include <stdio.h>
 #include "main.h"
+
 /**
  * _print_char - Prints a character to stdout.
  * @c: The character to print.
@@ -32,6 +33,7 @@ int _print_str(char *str)
 
 	return (count);
 }
+
 /**
  * _printf - Prints formatted output to stdout.
  * @format: The format string containing directives.
@@ -66,3 +68,4 @@ int _printf(const char *format, ...)
 
 	return (count);
 }
+
