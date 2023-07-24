@@ -52,11 +52,10 @@ int _printf(const char *format, ...)
 	return (printed_chars);
 }
 /**
-
-    print_buffer - Displays the contents of the buffer if it exists.
-    @buffer: Array of characters representing the buffer.
-    @buff_ind: Index indicating where the next character should be added.
-    */
+ * print_buffer - Displays the contents of the buffer if it exists.
+ * @buffer: Array of characters representing the buffer.
+ * @buff_ind: Index indicating where the next character should be added.
+ */
 
 void print_buffer(char buffer[], int *buff_ind)
 {
